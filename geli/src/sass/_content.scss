@@ -1,0 +1,89 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.guessLove{
+    p{
+        font-size: 18px;
+        margin: 14px 0;
+        color: #757575;
+    }
+    .rx{
+        width: 1200px;
+        height: 180px;
+        margin: 0 auto;
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+        user-select: none;
+        ul{
+            width: 1210px;
+            li{
+                width: 295px;
+                height: 180px;
+                float: left;
+                margin-right: 7px;
+            }
+        }
+    }
+}
+.mrjx{
+    width: 1200px;
+    height: 570px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    p{
+        font-size: 18px;
+        margin: 14px 0;
+        color: #757575;
+    }
+    .mrjx1{
+        width: 300px;
+    height: 570px;
+    padding-right: 10px;
+    float: left;
+    }
+    .mrjx2{
+        width: 590px;
+        height: 570px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        float: left;
+        .mrjx2_top{
+            width: 590px;
+            height: 280px;
+            padding-bottom: 10px;
+            float: left;
+        }
+        .mrjx2_bottom1 img{
+            width: 290px;
+            height: 280px;
+            padding-right: 10px;
+            float: left;
+        }
+        .mrjx2_bottom2 img{
+            width: 290px;
+            height: 280px;
+            float: left;
+        }
+    }
+    .mrjx3{
+        width: 290px;
+        height: 570px;
+        float: left;
+        .mrjx3_top img{
+            width: 290px;
+            height: 280px;
+            float: left;
+            padding-bottom: 10px;
+        }
+        .mrjx_bottom1 img{
+            width: 290px;
+            height: 280px;
+            float: left;
+        }
+    }
+}

@@ -1,0 +1,209 @@
+.nav_big {
+  width: 100%;
+  height: 36px;
+  border: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.nav {
+  width: 1200px;
+  height: 36px;
+  margin: auto;
+  font-family: "Verdana", "Arial", Microsoft Yahei, Arial;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.nav .nav_left {
+  height: 36px;
+  z-index: 2;
+  background: #cc0000;
+  width: 174px;
+  float: left;
+  position: relative;
+  font-family: FZLTHJW--GB1-0,Helvetica,Arial,"Microsoft Yahei","Lantinghei SC", "Hiragino Sans GB",sans-serif;
+}
+
+.nav .nav_left h2 {
+  width: 174px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 32px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.nav .nav_left h2 a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.nav .nav_left h2 a span {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 3px;
+  margin-right: 17px;
+}
+
+.nav .nav_left .nav_classify {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 174px;
+  height: auto;
+  border-top: none;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.nav .nav_left .nav_classify li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin: 0;
+  padding: 0;
+  font-family: FZLTHJW--GB1-0,Helvetica,Arial,"Microsoft Yahei","Lantinghei SC", "Hiragino Sans GB",sans-serif;
+  font-size: 12px;
+}
+
+.nav .nav_left .nav_classify li h3 {
+  display: block;
+  line-height: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 32px;
+  overflow: hidden;
+}
+
+.nav .nav_left .nav_classify li h3 a {
+  color: #faf8f9;
+}
+
+.nav .nav_left .nav_classify li i {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav_mini {
+  width: 990px;
+  overflow: hidden;
+  margin-left: 196px;
+  height: 36px;
+}
+
+.nav_mini .fl {
+  float: left;
+  padding: 0;
+  line-height: 36px;
+}
+
+.nav_mini .fl li {
+  float: left;
+  text-align: center;
+}
+
+.nav_mini .fl a {
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #424242;
+  font-weight: normal;
+}
+
+.mc_classify_prompt {
+  width: 990px;
+  min-height: 450px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #d3d3d3;
+  background: #fff;
+  position: absolute;
+  left: 174px;
+  top: 0px;
+  z-index: 999;
+  box-shadow: 6px 3px 8px 0 rgba(195, 183, 183, 0.28);
+}
+
+.mc_classify_prompt .mc_subitem {
+  float: left;
+  width: 672px;
+  min-height: 450px;
+  padding: 28px 80px 28px 0;
+  box-sizing: border-box;
+}
+
+.mc_classify_prompt .mc_subitem dl {
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  margin: 0px;
+  width: 100%;
+}
+
+.mc_classify_prompt .mc_subitem dl dt {
+  float: left;
+  width: 120px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 14px;
+  color: #424242;
+}
+
+.mc_classify_prompt .mc_subitem dl dt a {
+  color: #747474;
+  outline: none;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.mc_classify_prompt .mc_subitem dl dt a:hover {
+  color: #cc0000;
+}
+
+.mc_classify_prompt .mc_subitem dl dd {
+  padding-top: 1px;
+  margin-left: 152px;
+  max-width: 442px;
+  overflow: hidden;
+  border-bottom: 1px dotted #979797;
+  font-size: 22px;
+  color: #757575;
+}
+
+.mc_classify_prompt .mc_subitem dl dd b {
+  font-weight: normal;
+  float: left;
+  line-height: normal;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #757575;
+  margin: 0 30px 14px 0;
+}
+
+.mc_classify_prompt .mc_subitem dl dd b a {
+  color: #747474;
+  outline: none;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.mc_classify_prompt .mc_subitem dl dd b a:hover {
+  color: #cc0000;
+}
