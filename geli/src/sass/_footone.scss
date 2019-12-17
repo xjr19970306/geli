@@ -1,0 +1,26 @@
+#footone{
+    clear: both;
+    .indexfoot{
+        width: 1200px;
+        margin: 30px auto 0;
+        height: auto;
+        overflow: hidden;
+        // img{
+        //     display: block;
+        //     width: 1200px;
+        // }
+        ul{
+            margin-top: 26px;
+            overflow: hidden;
+            padding: 40px 0;
+            background-color: #fff;
+            li{
+                width: 25%;
+                border-right: 1px solid #dedede;
+                padding: 0 25px;
+                box-sizing: border-box;
+                float: left;
+            }
+        }
+    }
+}

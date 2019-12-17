@@ -1,8 +1,25 @@
 @charset "utf-8";
 @import './_banner';
 @import './_content';
+@import './_floors';
+@import './_floorbar';
+@import './_index_videos';
+@import './_footone';
+@import './_foot';
+img{
+    border: none;
+}
+img:hover{
+    opacity: 0.8;
+}
+.clear{
+    clear: both;
+}
 a{
+    color: #747474;
+    outline: none;
     text-decoration: none;
+    word-wrap: break-word;
 }
 .search{
     width: 1200px;

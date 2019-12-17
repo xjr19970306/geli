@@ -1,0 +1,29 @@
+a{
+    outline: none;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+#floorbar{
+    position: fixed;
+    display: block;
+    width: 60px;
+    text-align: center;
+    top: 60%;
+    line-height: 28px;
+    right: 15px;
+    z-index: 999;
+    background-color: white;
+    top: 377px;
+    a{
+        display: block;
+        border: 1px solid #dedede;
+        line-height: 34px;
+        color: #ed5759;
+        overflow: hidden;
+        margin-bottom: 2px;
+        font-size: 12px;
+        .floor_h{
+            display: none;
+        }
+    }
+}

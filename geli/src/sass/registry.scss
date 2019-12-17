@@ -1,0 +1,116 @@
+body{
+    background: #fafafa;
+    color: #747474;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 35px;
+    background: #eeeeee;
+    min-width: 1200px;
+    .top_mid{
+        width: 1200px;
+        margin: 0 auto
+    }
+}
+.top_mid_r{
+    width: auto;
+    float: right;
+    text-align: right;
+    height: 35px;
+    line-height: 35px;
+    .nav_list{
+        float: right;
+        font-size: 12px;
+        li{
+            float: left;
+            height: 35px;
+            padding: 0 10px;
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            a{
+                line-height: 35px;
+                color: #747474;
+            }
+            i{
+                margin-top: 5px;
+                height: 24px;
+                line-height: 24px;
+                margin-left: 10px;
+                color: #c8c8c8;
+            }
+        }
+    }
+}
+.top_mid_l{
+    width: auto;
+    float: left;
+    line-height: 35px;
+    .mar_l10{
+        margin-left: 10px;
+        font-size: 12px;
+        a{
+            color: #cc0000;
+            line-height: 35px;
+            outline: none;
+        }
+        i{
+            margin-left: 10px;
+            margin-right: 10px;
+            color: #c8c8c8;
+            line-height: 35px;
+        }
+    }
+}
+#img{
+    height: 110px;
+    border-bottom: 1px solid #e8e8e8;
+    .headertop{
+        width: 1200px;
+        height: 110px;
+        margin: 0 auto;
+        background: #fff;
+    }
+    .leftimg{
+        width: 210px;
+        float: left;
+        position: relative;
+        margin-top: 10px;
+        img{
+            max-width: 174px;
+            height: auto;
+        }
+    }
+    .rightimg{
+        width: 140px;
+        float: left;
+        margin-right: 50px;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        p{
+            line-height: 100px;
+            font-size: 24px;
+            font-family: FZLTHJW--GB1-0,Helvetica,Arial,"Microsoft Yahei","Lantinghei SC", "Hiragino Sans GB",sans-serif;
+            color: #747474;
+            i{
+                margin-right: 10px;
+                font-style: normal;
+            }
+        }
+    }
+}
+

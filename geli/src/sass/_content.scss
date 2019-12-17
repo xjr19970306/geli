@@ -4,6 +4,11 @@
     height: auto;
     overflow: hidden;
 }
+.title-font{
+    font-size: 18px;
+    margin: 14px 0;
+    color: #757575;
+}
 .guessLove{
     p{
         font-size: 18px;
@@ -35,11 +40,6 @@
     margin: 0 auto;
     padding: 0px;
     position: relative;
-    p{
-        font-size: 18px;
-        margin: 14px 0;
-        color: #757575;
-    }
     .mrjx1{
         width: 300px;
     height: 570px;
